@@ -192,7 +192,7 @@ h6{
     width: 500px;
     margin: 60px auto;
     padding: 20px;
-    color: #fff;
+    color: #111010;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
 
 }
@@ -218,24 +218,32 @@ h6{
     float:left;
     background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
 }
-.html{
-    width: 85%;
+.Html{
+    width: 90%;
     animation: html 3s;
 }
-.css{
-    width: 70%;
+.Css{
+    width: 85%;
     animation: css 3s;
 }
 .Javascript{
     width: 45%;
     animation: javascript 3s;
 }
-.dotnet{
-    width: 45%;
-    animation: dotnet 3s;
+.React{
+    width: 55%;
+    animation: React 3s;
+}
+.React-Native{
+    width: 50%;
+    animation: React-Native 3s;
+}
+.Node{
+    width: 70%;
+    animation: Node 3s;
 }
 .Bootstrap{
-    width: 40%;
+    width: 85%;
     animation: bootstrap 3s;
 }
 @keyframes html{
@@ -262,7 +270,23 @@ h6{
         width: 90%;
     }
 }
-@keyframes dotnet{
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes react-native{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes node{
     0%{
         width: 0%;
     }
@@ -280,7 +304,7 @@ h6{
 }
 .dropdown-menu{
     width: 100%;
-    height: 580px; 
+    height: 750px; 
 }
 button{
     size: 30px;
